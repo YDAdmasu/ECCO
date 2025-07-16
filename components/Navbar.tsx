@@ -25,7 +25,7 @@ export default function Navbar() {
       <nav className="fixed w-full z-40 bg-transparent" style={{ top: 'var(--top-bar-height)' }}>
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="text-xl font-bold text-[var(--text-color)] flex-shrink-0">
-            <img src="/image/ecco.png" alt="Logo" className="h-10 md:h-16" />
+            <img src="/image/ecco.png" alt="Logo" className="h-18 md:h-16" />
           </div>
           <div className="hidden md:flex space-x-6">
             {['MEN','WOMEN','KIDS','BABY','FAMILY'].map(label => (
